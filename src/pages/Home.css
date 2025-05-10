@@ -7,7 +7,7 @@
   }
   
   .hero-section {
-    background-image: url('C:\Users\dell\Downloads\skm2\skm-website\src\assetes1\1745095004023.jpeg'); /* already done */
+    background-image: url("/src/assetes1/1745095004023.jpg"); /* already done */
     background-size: cover;
     background-position: center;
     width: 100%;
