@@ -1,0 +1,116 @@
+.home {
+    background: linear-gradient(135deg, #f5f7fa, #e4ebf1);
+    min-height: 100vh;
+    padding: 0px 20px;
+    padding-top: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .hero-section {
+    background-image: url('C:\Users\dell\Downloads\skm2\skm-website\src\assetes1\1745095004023.jpeg'); /* already done */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: left;
+    color: #fff;
+  }
+  
+  .text-box {
+    margin-left: 0%;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.6); /* dark overlay for readability */
+    padding: 20px;
+    border-radius: 12px;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .text-box h1 {
+    font-size: 36px;
+    color: #FFD700; /* golden yellow */
+    margin-bottom: 20px;
+  }
+  
+  .text-box ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .text-box li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+ 
+  
+  .image-box, .content-box {
+    flex: 1;
+    border: 0px solid #ccc;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    
+    
+  }
+  .container2{
+    align-items: center;
+
+  }
+  .contentbox2 h2,h3 {
+    text-align: center;
+
+  }
+  .image-box {
+    flex:  350px;
+    max-width: 80%;
+    max-height: 100%;
+    text-align: center;
+  }
+  
+  .image-box img {
+    width: 100%;
+    max-height: 100%;
+    
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .content-box {
+    flex:  100px;
+    max-width: 600px;
+    
+  }
+  .content-box h2,ul{
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .image-box, .content-box {
+      max-width: 100%;
+    }
+  }
+  
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
