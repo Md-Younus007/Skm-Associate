@@ -97,9 +97,7 @@
 .contact-address{
   justify-content: center;
 }
-@media (max-width: 768px) {
-  .contact-form, .contact-map{
-    gap: 500px;
-  }
-
+.container {
+  flex-direction: column;
+  padding: 1rem;
 }
